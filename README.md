@@ -5,6 +5,7 @@ You should have pip installed. Then Run:
 ```
 $ pip install pandas matplotlib wget
 ```
+- If you don't want to install anything you can run the code online [here](https://colab.research.google.com/drive/1P3Io1IE109salDL-kGIMpsQmBaqUEKOd).
 
 In line 15 on the code you can change the country to the country of your choice (Default: Greece).
 
