@@ -15,7 +15,7 @@ data = data.reindex(index=data.index[::-1])
 data = data[data.cases != 0]
 
 ##Remove useless columns
-data = data.drop(columns=['day', 'month', 'year', 'geoId', 'countryterritoryCode', 'popData2018'])
+data = data.drop(columns=['day', 'month', 'year', 'geoId','continentExp', 'countryterritoryCode','Cumulative_number_for_14_days_of_COVID-19_cases_per_100000', 'popData2019'])
 
 ## Make the name of the columns more clean
 data.rename(columns={"countriesAndTerritories": "Country", 'dateRep': 'Date', 'cases': 'Cases', 'deaths': 'Deaths'}, inplace=True)
