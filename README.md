@@ -3,7 +3,7 @@
 ## Installation
 You should have pip installed. Then Run:
 ```
-$ pip install pandas matplotlib wget
+$ pip install -r requirements.txt
 ```
 - If you don't want to install anything you can run the code online [here](https://colab.research.google.com/drive/1P3Io1IE109salDL-kGIMpsQmBaqUEKOd).
 
