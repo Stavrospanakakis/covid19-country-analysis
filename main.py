@@ -1,11 +1,6 @@
 import pandas as pd 
 import matplotlib
 import matplotlib.pyplot as plt 
-import wget
-
-##Download the latest data
-url = 'https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide.xlsx'
-wget.download(url)
 
 ##Read the data
 data = pd.read_excel('COVID-19-geographic-disbtribution-worldwide.xlsx')
