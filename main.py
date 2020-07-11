@@ -3,7 +3,7 @@ import matplotlib
 import matplotlib.pyplot as plt 
 
 ##Read the data
-data = pd.read_excel('COVID-19-geographic-disbtribution-worldwide.xlsx')
+data = pd.read_csv('https://opendata.ecdc.europa.eu/covid19/casedistribution/csv')
 
 #Change it to the country of your choice
 country = 'Greece' 
